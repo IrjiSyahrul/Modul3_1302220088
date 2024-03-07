@@ -51,6 +51,7 @@
             this.tambah.TabIndex = 0;
             this.tambah.Text = "+";
             this.tambah.UseVisualStyleBackColor = true;
+            this.tambah.Click += new System.EventHandler(this.tambah_Click);
             // 
             // tujuh
             // 
@@ -60,6 +61,7 @@
             this.tujuh.TabIndex = 1;
             this.tujuh.Text = "7";
             this.tujuh.UseVisualStyleBackColor = true;
+            this.tujuh.Click += new System.EventHandler(this.tujuh_Click);
             // 
             // empat
             // 
@@ -69,6 +71,7 @@
             this.empat.TabIndex = 2;
             this.empat.Text = "4";
             this.empat.UseVisualStyleBackColor = true;
+            this.empat.Click += new System.EventHandler(this.empat_Click);
             // 
             // satu
             // 
@@ -78,6 +81,7 @@
             this.satu.TabIndex = 3;
             this.satu.Text = "1";
             this.satu.UseVisualStyleBackColor = true;
+            this.satu.Click += new System.EventHandler(this.satu_Click);
             // 
             // tiga
             // 
@@ -87,6 +91,7 @@
             this.tiga.TabIndex = 7;
             this.tiga.Text = "3";
             this.tiga.UseVisualStyleBackColor = true;
+            this.tiga.Click += new System.EventHandler(this.tiga_Click);
             // 
             // enam
             // 
@@ -96,6 +101,7 @@
             this.enam.TabIndex = 6;
             this.enam.Text = "6";
             this.enam.UseVisualStyleBackColor = true;
+            this.enam.Click += new System.EventHandler(this.enam_Click);
             // 
             // sembilan
             // 
@@ -105,6 +111,7 @@
             this.sembilan.TabIndex = 5;
             this.sembilan.Text = "9";
             this.sembilan.UseVisualStyleBackColor = true;
+            this.sembilan.Click += new System.EventHandler(this.sembilan_Click);
             // 
             // nol
             // 
@@ -114,6 +121,7 @@
             this.nol.TabIndex = 4;
             this.nol.Text = "0";
             this.nol.UseVisualStyleBackColor = true;
+            this.nol.Click += new System.EventHandler(this.nol_Click);
             // 
             // dua
             // 
@@ -123,6 +131,7 @@
             this.dua.TabIndex = 11;
             this.dua.Text = "2";
             this.dua.UseVisualStyleBackColor = true;
+            this.dua.Click += new System.EventHandler(this.dua_Click);
             // 
             // lima
             // 
@@ -132,6 +141,7 @@
             this.lima.TabIndex = 10;
             this.lima.Text = "5";
             this.lima.UseVisualStyleBackColor = true;
+            this.lima.Click += new System.EventHandler(this.lima_Click);
             // 
             // delapan
             // 
@@ -141,6 +151,7 @@
             this.delapan.TabIndex = 9;
             this.delapan.Text = "8";
             this.delapan.UseVisualStyleBackColor = true;
+            this.delapan.Click += new System.EventHandler(this.delapan_Click);
             // 
             // samaDengan
             // 
@@ -150,15 +161,15 @@
             this.samaDengan.TabIndex = 8;
             this.samaDengan.Text = "=";
             this.samaDengan.UseVisualStyleBackColor = true;
+            this.samaDengan.Click += new System.EventHandler(this.samaDengan_Click);
             // 
             // Output
             // 
             this.Output.AutoSize = true;
             this.Output.Location = new System.Drawing.Point(341, 96);
             this.Output.Name = "Output";
-            this.Output.Size = new System.Drawing.Size(68, 13);
+            this.Output.Size = new System.Drawing.Size(0, 13);
             this.Output.TabIndex = 15;
-            this.Output.Text = "Label Output";
             this.Output.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
