@@ -16,5 +16,10 @@ namespace Jurnal_MOD3_1302220088_FYI
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
